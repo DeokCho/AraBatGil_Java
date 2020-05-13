@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public String HomeControlle(){
-        return "하이2";
+        return "하이";
     }
 }
